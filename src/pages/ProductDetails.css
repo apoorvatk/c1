@@ -1,0 +1,100 @@
+/* src/pages/ProductDetails.css */
+.productDetails {
+    padding: 20px;
+  }
+  
+  .productDetailsInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .productImage {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .productDetailsText {
+    max-width: 600px;
+  }
+  
+  .productDetailsText h1 {
+    margin: 0 0 10px;
+    font-weight: bold; /* Make the product title bold */
+  }
+  
+  .productDetailsText p {
+    margin: 5px 0;
+    font-weight: normal; /* Ensure normal weight for other text */
+  }
+  
+  .addToCartButton {
+    padding: 6px 10px; /* Further reduced padding for shorter button */
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold; /* Make the button text bold */
+    font-size: 14px; /* Adjust font size if needed */
+  }
+  
+  .addToCartButton:hover {
+    background-color: #e2a33f;
+  }
+  
+  .similarProducts {
+    margin-top: 40px;
+  }
+  
+  .similarProducts h2 {
+    margin-bottom: 20px;
+    font-weight: bold; /* Make the heading bold */
+  }
+  
+  .productList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productImage {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .productText {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .productText h3 {
+    margin: 0 0 10px;
+    font-weight: bold; /* Make product names bold */
+  }
+  
+  .productText p {
+    margin: 5px 0;
+    font-weight: normal; /* Ensure normal weight for prices */
+  }
+  
+  .productText .addToCartButton {
+    margin-top: 10px;
+    padding: 6px 10px; /* Further reduced padding for shorter button */
+    font-weight: bold; /* Make the button text bold */
+    font-size: 14px;
+    width: 9%; /* Adjust font size if needed */
+  }
+  

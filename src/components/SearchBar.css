@@ -1,0 +1,35 @@
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    max-width: 600px; /* Adjust width as needed */
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc; /* Add a border to match the input field */
+    border-radius: 4px; /* Overall rounded corners */
+    overflow: hidden; /* Ensures no overflow outside the search bar */
+  }
+  
+  .search-bar-input {
+    flex: 1;
+    padding: 8px 12px; /* Adjust padding for height */
+    border: none; /* Remove the default border */
+    outline: none; /* Remove the outline on focus */
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .search-bar-button {
+    padding: 8px 16px; /* Adjust padding to fit the height of the input */
+    background-color: #f0c14b;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none; /* Remove the outline on focus */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-bar-button:hover {
+    background-color: #ddb347; /* Slightly darker on hover */
+  }
+  

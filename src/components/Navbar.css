@@ -1,0 +1,203 @@
+.navbar{
+    background-color:#131921;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    gap:-4px
+}
+
+.navbar img{
+    height: 40px;
+    width:fit-content;
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid #ccc;
+        border-radius: 3px;
+
+    }
+}
+.deliver-button{
+    gap: 5px;
+    padding: 8px;
+    height: 30px;
+    cursor: pointer;
+    &:hover{
+        border-radius: 3px;
+        border: 1px solid;
+    }
+}
+  .deliver-icon {
+    color: #fff; /* Icon color */
+    font-size: 22px; /* Size of the icon */
+    vertical-align: middle;
+    gap:5px;
+    padding: 10px;
+    height: 40px;
+  }
+  .deliver-location{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    &:hover{
+        border: 2px solid #ccc;
+        display: block;
+  }
+}
+  .top{
+    font-size: 12px;
+    color: #ccc;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+  }
+  .bottom{
+    color: #fff;
+  
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 10px;
+  }
+  /* .search-bar-container {
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+    padding: 10px;
+    background-color:#131921;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 20px; */
+  
+  .search-dropdown {
+    padding: 11px;
+    border: -2px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Rounded corners on the left side */
+    background-color: #f3f3f3;
+    font-size: 16px;
+    cursor: pointer;
+    max-width:80px;
+  }  
+  /* .search-bar-input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+  }
+  
+  .search-bar-button {
+    padding: 6px 15px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s ease;
+  }
+  
+  .search-bar-button:hover {
+    background-color: #ddb347;
+  }
+  
+  .search-bar-input:focus {
+    border-color: #f0c14b;
+    outline: none;
+  } */ 
+   .flag{
+    height: 30px !important;
+    object-fit: contain;
+   }
+  .language{
+    padding: 11px;
+    border: 2px solid #131921;
+    border-radius: 4px 0 0 4px; /* Rounded corners on the left side */
+    background-color: #131921;
+    font-size: 16px;
+    cursor: pointer;
+    max-width:70px;
+    color: #fff;
+    &:hover{
+        border: 2px solid #ccc;
+        display: block;
+    }
+  }
+  .login {
+    display: flex; /* Align items horizontally if needed */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .login button {
+    padding: 4px 20px; /* Adjust padding for button size */
+    border: none; /* Remove default border */
+    background-color: #131921; /* Amazon yellow */
+    border-radius: 4px; /* R6ounded corners */
+    color: #fff; /* Dark text color */
+    font-size: 16px; /* Font size */
+    width: 90px;/* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    text-align: center; /* Center text inside the button */
+  }
+  
+  .login button:hover {
+    &:hover{
+        border:  solid #ccc;
+        width: 90px;
+    } /* Slightly darker yellow on hover */
+  }
+  .login a {
+    text-decoration: none; /* Remove underline from the link */
+  }
+  .return{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    &:hover{
+        padding: 4px;
+        border:  solid #ccc;
+    
+  }
+}
+  .topreturn{
+    font-size: 12px;
+    color: #ccc;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+  }
+  .bottomreturn{
+    color: #fff;
+  
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 10px;
+  }
+  .cart-button {
+    text-decoration: none; /* Remove underline from the Link */
+}
+
+.cart-button button {
+    background-color: #131921; /* Background color of the button */
+    color: white; /* Text color */
+    border: none; /* Remove default button border */
+    padding: 6px 12px; /* Adjust padding */
+    border-radius: 4px; /* Rounded corners */
+    display: flex; /* Align icon and text */
+    align-items: center; /* Center items vertically */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 14px; /* Font size */
+    text-transform: none; /* Prevent text from being uppercase */
+}
+
+.cart-button button:hover {
+  padding: 11px;
+  border:  solid #ccc; /* Slightly lighter color on hover */
+}
+
+.cart-icon {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 18px; /* Adjust icon size if needed */
+}

@@ -1,0 +1,126 @@
+
+{
+    "products": [
+      {
+        "id": "1",
+        "itemTitle": "Resin Dog Showpiece",
+        "description": "A beautifully crafted resin dog showpiece.",
+        "price": 799,
+        "imgs": [
+          "https://m.media-amazon.com/images/I/716yTuchelL._SX679_.jpg"
+        ],
+        "category": "Revamp your home in style",
+        "relatedProducts": ["9", "5"] 
+      },
+      {
+        "id": "2",
+        "itemTitle": " 5 PCs Microfiber Car Duster ",
+        "description": "Car duster microfiber brush : Enhance your vehicle with car accessories, including car accessories interior options like organizers and floor mats, and maintain its cleanliness with a car cleaning brush, a car duster, and a comprehensive car cleaning kit.",
+        "price": 499,
+        "imgs": [
+          "https://m.media-amazon.com/images/I/71dfXYyEMgL._AC._SR360,460.jpg"
+        ],
+        "category": "Automotive essentials",
+        "relatedProducts": ["6", "10"] 
+      },
+      {
+        "id": "3",
+        "itemTitle": " Panasonic 20L Solo Microwave Oven ",
+        "description": "Panel information in detail / Baking functions / Programs: Micro, Grill, Convection, Combination | Indian Cuisine, Tandoor se, Tea / Dairy Delight, Cooking, Low Calorie, Kids Delight, Cooking Aid, Steam Cook, Paneer / Curd, Steam Clean | Stop / Clear, Start",
+        "price": 6999,
+        "imgs": [
+          "https://m.media-amazon.com/images/I/618hSd40v6L._AC_UL640_FMwebp_QL65_.jpg"
+        ],
+        "category": "Appliances for your home",
+        "relatedProducts": ["7", "11"] 
+      },
+      {
+        "id": "4",
+        "itemTitle": " Women Regular Fit Rayon Shirt ",
+        "description": "Features: Cap sleeves, crewneck, color block tie dye, pullover style, casual and loose style fits for any body shape, and a sweatshirt necessary for women wardrobe.",
+        "price": 999,
+        "imgs": [
+          "https://m.media-amazon.com/images/I/71q-01HbzXL._AC_UL640_FMwebp_QL65_.jpg"
+        ],
+        "category": "Styles for  women",
+        "relatedProducts": ["8", "12"] 
+      },
+      {
+        "id": "5",
+        "itemTitle": "Xtore Stylish Stone Finish Musician Male & Female Statue",
+        "description": " Fine workmanship, lifelike statues are a way to beautify your personal space, perfect decoration for high-end hotels, offices and home decoration.",
+        "price": 1399,
+        "category": "Revamp your home in style",
+        "imgs": ["https://m.media-amazon.com/images/I/71tEr2QzSTL._SX679_.jpg"],
+        "relatedProducts": ["1", "9"] 
+      },
+      {
+        "id": "6",
+        "itemTitle": "TUSA Tyre Inflator for Car",
+        "description": "QUICK INFLATION & EASY USE : TUSA Tire Inflator rapidly inflate a flat tire to 30 PSI in under 4 minutes. Connect to your car's 12V outlet, attach the stem to the tire valve, and with a single press on the air compressor, let it handle the job effortlessly. ",
+        "price": 299,
+        "category": "Automotive essentials",
+        "imgs": ["https://m.media-amazon.com/images/I/71IGbA-YY1L._AC_UL640_FMwebp_QL65_.jpg"],
+        "relatedProducts": ["2", "10"] 
+      },
+      {
+        "id": "7",
+        "itemTitle": "LG 8 Kg 5 Star Inverter TurboDrum Fully Automatic Top Loading Washing Machine",
+        "description":"Fully-automatic top load washing machine with Smart Inverter Technology : Affordable with great wash quality, Easy to use; Has both washing and drying functions",
+        "price": 6999,
+        "category": "Appliances for your home",
+        "imgs": ["https://m.media-amazon.com/images/I/71hNjwzeXUL._AC_UL640_FMwebp_QL65_.jpg"],
+        "relatedProducts": ["3", "11"] 
+      },
+      {
+        "id": "8",
+        "itemTitle": "Women's Polyester Idry Jacket",
+        "description":"Premium Quality - Our branded jacket is crafted with meticulous attention to detail, ensuring a durable and long-lasting product",
+        "price": 2999,
+        "category": "Styles for  women",
+        "imgs": ["https://m.media-amazon.com/images/I/81coOGwUBML._AC_UL640_FMwebp_QL65_.jpg"],
+        "relatedProducts": ["4", "12"] 
+      },
+      {
+        "id": "9",
+        "itemTitle": "Umi Self Adhesive Photo Album Scrapbook Album ",
+        "description":"Scrapbook Photo Album Size: Linen Hardcover length 33 x Width 33 (cm), white self-adhesive page length 32 x Width 28 (cm) 20 sheets/40 pages, can hold 200 4x6 inches photos.The number of photos that can be placed will vary depending on the size of the photos placed.",
+        "price": 399,
+        "category": "Revamp your home in style",
+        "imgs": ["https://m.media-amazon.com/images/I/71tEr2QzSTL._SX679_.jpg"],
+        "relatedProducts": ["1", "5"] 
+      },
+      {
+        "id": "10",
+        "itemTitle":" basics Compact Portable 12V 150 PSI Digital Tyre Inflator",
+        "description":"Digital Gauge with Auto Shut Off Capability Built-in LED light offers useful illumination when working in dim or dark lighting",
+        "price": 299,
+        "category": "Automotive essentials",
+        "imgs": ["https://m.media-amazon.com/images/I/41sO6s6Sc8L._SY300_SX300_QL70_FMwebp_.jpg"],
+        "relatedProducts": ["2", "6"] 
+      },
+      {
+        "id": "11",
+        "itemTitle": "Crompton InstaBliss 3-L Instant Water Heater",
+        "description":"WARRANTY: 5 year warranty on Tank, 2 year warranty on Element and 2 year warranty on Product provided by",
+        "price": 4999,
+        "category": "Appliances for your home",
+        "imgs": ["https://m.media-amazon.com/images/I/31UoXYdBAtL._SX300_SY300_QL70_FMwebp_.jpg"],
+        "relatedProducts": ["3", "7"] 
+      },
+      {
+        "id": "12",
+        "itemTitle": "LEOTUDE Women's Boyfriend/Loose Fit Full Sleeve Drop Shoulder Loopknit Round Neck Sweatshirt",
+        "description": " Fine workmanship, lifelike statues are a way to beautify your personal space, perfect decoration for high-end hotels, offices and home decoration.",
+        "price": 129,
+        "category": "Styles for  women",
+        "imgs": ["https://m.media-amazon.com/images/I/61nIiTSG8VL._SY879_.jpg"],
+        "relatedProducts": ["4", "8"] 
+      }
+ 
+      
+ 
+ 
+    ]
+  }
+  

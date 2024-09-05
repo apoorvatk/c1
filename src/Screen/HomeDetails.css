@@ -1,0 +1,98 @@
+.homeDetailBanner {
+    width: 100%;
+    margin-bottom: 20px; /* Adjust space below the image */
+    text-align: center; 
+    margin-top: 0px;/* Center the image */
+}
+
+.homeDetailBanner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure the image covers the container proportionally */
+}
+.homeDetails{
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(238,235,235);
+}
+.homeDetailLongCard{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: white;
+}
+.homeDetailLongCardTitle{
+    font-size: 21px;
+    font-weight: 700;
+
+}
+.homeDetailLongCardItems{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.scroll{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+.homeDetailLongCardItem{
+    display: flex;
+    flex-shrink: 0;
+    cursor: pointer;
+    flex-direction: column;
+    width: 17%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(247,247,247);
+}
+.homeDetailLongCardItemImg {
+    width: 90%; /* Image fills the width of the item */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Set a max height to prevent oversized images */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-bottom: 1px solid #ddd; /* Add a border between image and text */
+}
+
+/* Text detail container */
+.homeDetailLongCardItemImgDetail {
+    padding: 10px; /* Add padding around the text */
+}
+
+/* Styling for the top detail of each item */
+.homeDetailLongCardItemImgTopDetail {
+    display: flex;
+    justify-content: space-between; /* Space out the percentage off and deal text */
+    align-items: center;
+    font-weight: bold; /* Make text bold */
+}
+
+.homeDetailPercentageOff{
+    padding: 6px 6px;
+    background-color: #CC0C39;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+    color: white;
+    width: 90px;
+}
+.limitedTimeDealhomeDetail{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.bottomhomeDetail{
+    font-size: 12px;
+    padding: 2px 0;
+}
